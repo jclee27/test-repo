@@ -1,4 +1,5 @@
-FROM docker.io/library/python:3.9-slim
+#FROM docker.io/library/python:3.9-slim
+FROM registry.access.redhat.com/ubi8/python-39
 
 WORKDIR /app
 
